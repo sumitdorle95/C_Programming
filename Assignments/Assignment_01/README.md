@@ -1,1 +1,1 @@
-contains solutions to assignment no 1 of c programming
+contains solutions to assignment no 1 of c programming.
