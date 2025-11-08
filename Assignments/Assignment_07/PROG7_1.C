@@ -1,0 +1,27 @@
+#include<stdio.h>
+
+void pattern(int iNo)
+{
+    if(iNo<0)
+    {
+        iNo=-iNo;
+    }
+    int i =0;
+    for (i=0;i<iNo;i++)
+    {
+        printf("$\t*\t");
+    }
+}
+
+int main()
+{
+    int iValue=0;
+    printf("enter the number:");
+    scanf("%d",&iValue);
+    pattern(iValue);
+
+    return 0;
+}
+
+
+//time complexity:O(n)
