@@ -8,14 +8,14 @@ int Evenfactorial(int iNo)
     }
    
     int i =0;
-    int n =1;
+    int iFactorial =1;
     for (i=iNo;i>0;i--)
     {
         if((i%2)==0)
-        n=n*i;
+        iFactorial=iFactorial*i;
         
     }
-    return n;
+    return iFactorial;
 }
 
 int main()

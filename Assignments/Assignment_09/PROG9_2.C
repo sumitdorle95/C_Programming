@@ -7,9 +7,9 @@ int converter(int iNo)
         iNo=-iNo;
     }
    
-   int convert =0;
-   convert = (iNo*70);
-   return convert;
+   int iConvert =0;
+   iConvert = (iNo*70);
+   return iConvert;
 }
 
 int main()
