@@ -7,18 +7,18 @@ float AREA(float fNo)
         fNo=-fNo;
     }
    
-    float area =0;
-    area= (3.14*fNo*fNo);
+    float fArea =0;
+    fArea= (3.14*fNo*fNo);
    
-    return area;
+    return fArea;
 }
 
 int main()
 {
-    float radius=0,fRet=0;
+    float fRadius=0,fRet=0;
     printf("enter the radius:");
-    scanf("%f",&radius);
-    fRet=AREA(radius);
+    scanf("%f",&fRadius);
+    fRet=AREA(fRadius);
     printf("%f  cm^2 is the area of circle",fRet);
 
     return 0;
