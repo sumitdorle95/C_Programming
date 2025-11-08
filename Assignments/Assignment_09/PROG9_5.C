@@ -8,21 +8,21 @@ int difffactorial(int iNo)
     }
    
     int i =0;
-    int n =1;
-    int t =1;
+    int iEven =1;
+    int iOdd =1;
     for (i=iNo;i>0;i--)
     {
         if((i%2)==0)
         {
-            n=n*i;
+            iEven=iEven*i;
         }
         else
         {
-            t=t*i;
+            iOdd=iOdd*i;
         }
         
     }
-    return n-t;
+    return (iEven-iOdd);
 }
 
 int main()
