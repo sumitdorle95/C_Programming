@@ -1,2 +1,2 @@
-contains solutions to assignment 4 c programming
+contains solutions to assignment 4 of c programming
 
