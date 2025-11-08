@@ -5,7 +5,7 @@
 int SumFact(int iNo)
 {
     int i =0;
-    int n =0;
+    int iSum =0;
     if(iNo<0)
     {
         (iNo=-iNo);
@@ -14,10 +14,10 @@ int SumFact(int iNo)
     {
         if((iNo%i)!=0)
         {
-           n= n+i; 
+           iSum= iSum+i; 
         }
     }
-    return n;
+    return iSum;
 }
 
 int main ()

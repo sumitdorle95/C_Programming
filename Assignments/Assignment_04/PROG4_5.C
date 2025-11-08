@@ -5,8 +5,8 @@
 int DiffFact(int iNo)
 {
     int i =0;
-    int n =0;
-    int t=0;
+    int iEven =0;
+    int iOdd =0;
     if(iNo<0)
     {
         (iNo=-iNo);
@@ -15,15 +15,15 @@ int DiffFact(int iNo)
     {
         if((iNo%i)==0)
         {
-           n= n+i; 
+           iEven= iEven+i; 
         }
         else
         {
-            t=t+i;
+            iOdd=iOdd+i;
         }
         
     }
-    printf("%d",n-t);
+    printf("%d",iEven-iOdd);
 }
 
 int main ()
