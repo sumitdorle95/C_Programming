@@ -8,23 +8,23 @@ float percentage(float fNo1,float fNo2)
     }
     else
     {
-    float product =0;
-    product =(fNo1/fNo2)*(100);
-    return product;
+    float fProduct =0;
+    fProduct =(fNo1/fNo2)*(100);
+    return fProduct;
     }
 }
 
 
 int main()
 {
-    float f1=0,f2=0;
+    float fValue1=0,fValue2=0;
       float fRet=0;
     printf("enter the obtained numbers:");
-    scanf("%f",&f1);
+    scanf("%f",&fValue1);
      printf("enter the total numbers:");
-      scanf("%f",&f2);
+      scanf("%f",&fValue2);
   
-    fRet= percentage(f1,f2);
+    fRet= percentage(fValue1,fValue2);
     printf("%f is the percentage",fRet);
 
     return 0;

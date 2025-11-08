@@ -8,20 +8,20 @@ int multiply(int iNo1,int iNo2,int iNo3)
     }
     else
     {
-    int product =0;
-    product =(iNo1*iNo2*iNo3);
-    return product;
+    int iProduct =0;
+    iProduct =(iNo1*iNo2*iNo3);
+    return iProduct;
     }
 }
 
 
 int main()
 {
-    int i1=0,i2=0,i3=0;
+    int iValue1=0,iValue2=0,iValue3=0;
     printf("enter the three numbers:");
-    scanf("%d %d %d",&i1,&i2,&i3);
+    scanf("%d %d %d",&iValue1,&iValue2,&iValue3);
     int iRet=0;
-    iRet= multiply(i1,i2,i3);
+    iRet= multiply(iValue1,iValue2,iValue3);
     printf("%d is the product of three numbers",iRet);
 
     return 0;
