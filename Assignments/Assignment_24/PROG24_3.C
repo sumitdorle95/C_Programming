@@ -7,14 +7,14 @@ typedef int * IPTR;
 int Difference(int Arr[],int iSize)
 {
     int iCnt=0;
-    int iMin=Arr[0],iMax=0;
+    int iMin=Arr[0],iMax=Arr[0];
     for(iCnt=0;iCnt<iSize;iCnt++)
     {
         if(Arr[iCnt]<iMin)
         {
             iMin=Arr[iCnt];
         }
-        else if(Arr[iCnt]>iMax)
+         if(Arr[iCnt]>iMax)
         {
             iMax=Arr[iCnt];
 
